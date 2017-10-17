@@ -34,24 +34,62 @@
 					<script type="text/template">
 					    ### Topics
 
-					    * Innersource & Culture change
+					    * Innersource Roadblocks
+              * Innersource & Promoting Culture change
+              * Government Open source
 					    * Mental wellness in development teams
 					    * New tools
-					    * Cool experiences
+					    * Cool discoveries
+              * Other takeaways
 
 					</script>
 				</section>
 				<section data-markdown>
+          <section data-markdown>
+  					<script type="text/template">
+  					    ### Innersource / Large Corporation Roadblocks
+
+                * Management not willing to change
+                * Silolization of developmnet groups
+                * Groups using different tools (i.e. JIRA vs GitHub Issues)
+                * Having a mix of private & public repositories
+                * Too much to move at once
+                * General fear of change
+                * Developers not wanting to contribute to work outside of their group
+
+  					</script>
+  				</section>
 					<script type="text/template">
 					    ### Innersource & Culture change
 
-					    * Common tooling
-					    * Supportive Technical Leadership
-					    * Code readability
-					    * removal of the hierarchy system
+              * Make tools available & share common tools (but choose tools for the future)
+              * Start stealthily; Don't just come out and say "We're changing. Use this tool now"
+              * Let people who have experience with tools champion those tools
+              * Shine a light on teams that use tools effectively
+              * Supportive technical leadership
+					    * Focus on code readability (Less documentation, more process)
+					    * Remove hierarchical systems
 					    * Making decisions more transparent
-					    * Start stealthily
-					    * Physically change
+					    * Physical environment changes. Embrace open spaces.
+
+
+					</script>
+				</section>
+        <section data-markdown>
+					<script type="text/template">
+					    ### Government Open Source
+
+					    * GSA Digital Services Team is responsible for code.gov; Goal is to get all 24 agencies to embrace open source
+              (Github.com/GSA/open-source-policy)
+              * Near term goal is to get to 20% of all code being open source
+              * Longer term; aggregate all open source projects into code.gov
+              * Biggest Challenges: Building a culture of "open first"
+              * Next Biggest Challenging: Building an inventory of open source code; right now GSA has over 1000+ Github repos
+              * Solution: Leverage the GitHUb Rest API to figure out which repos contain source code.
+              * Near Term Goal: Adopt new schemas (Github GraphQl API) to simplify API requests
+              * Long Term Goal: Get to 90% of all code being open source
+              * Big fear from many agencies is accidently submitting secretive code.
+              * How to overcome this? Develope tools to scan code preventatively (using local git hooks) & reactively (using web hooks)
 
 					</script>
 				</section>
@@ -60,20 +98,46 @@
 					    ### Mental wellness in development teams
 
 					    * Code Review
-					     * This is someones approach to solving a problem
-					     * Make opportunities for praise
-					     * Keep tone in mind
-					     * Ask for devs explanation of this approach
+					    * This is someones approach to solving a problem
+					    * Make opportunities for praise
+					    * Keep tone in mind
+					    * Ask for devs explanation of this approach
 					    * Make development changes first
-					     * Don't let issues drag on and become a repetitive problem when they can be solved in a few days (or weeks).
+					    * Don't let issues drag on and become a repetitive problem when they can be solved in a few days (or weeks).
+
 					</script>
 				</section>
 				<section data-markdown>
 					<script type="text/template">
 					    ### New Tools
 
-					    * dependency monitoring
-					    * subteams
+					    * Dependency monitoring
+					    * Github subteams
+              * Github's GraphQL
+              * Heroku CI
+
+					</script>
+				</section>
+        <section data-markdown>
+					<script type="text/template">
+					    ### Cool Discoveries
+
+              * October is Hacktober; great time to get new developers involved!
+					    * New Atom editor tools: Atom IDE & Atom tree-sitter parsing
+              * Waffle.io burndown/story points
+					    * ZenHub. A waffle.io like solution but as a browser extension.
+
+					</script>
+				</section>
+        <section data-markdown>
+					<script type="text/template">
+					    ### Other take aways
+
+              * Big shift to cloud computing. Amazon can't build enough "SnowMobiles" to meet demands
+              * Many people using githooks in some way to prevent private code from being published.
+              * Everyone I talked to embraces Slack & the use of slackbots for management.
+              * No Waffle.io support for GitHub Projects anytime soon.. :(
+
 					</script>
 				</section>
 			</div>
